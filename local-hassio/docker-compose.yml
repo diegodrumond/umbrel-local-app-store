@@ -1,6 +1,11 @@
 version: "3.7"
 
 services:
+  app_proxy:
+    environment:
+      # The format here is: <app-id>_<docker-service-name>_1
+      APP_HOST: local-hassio_server_1
+      APP_PORT: 80
   server:
     image: schmunk42/nginx-redirect:latest
     environment:
