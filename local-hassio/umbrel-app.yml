@@ -2,7 +2,7 @@ manifestVersion: 1
 id: local-hassio
 name: Home Assistant
 tagline: Redirects to external Home Assistant
-icon: https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_homeassistant_icon_130543.png
+icon: https://yt3.googleusercontent.com/w0pMxvi-xTgbiaA-eS5uafZuUt8zVnPCGx0Bu9QPUn5qeFfrZN_K5Fs9kfQyy-c4CCC85fWb=s900-c-k-c0x00ffffff-no-rj
 category: Development
 version: "1.0.0"
 port: 4000
