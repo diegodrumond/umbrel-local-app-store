@@ -1,0 +1,25 @@
+manifestVersion: 1
+id: local-hassion
+name: Home Assistant
+tagline: Redirects to external Home Assistant
+icon: https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_homeassistant_icon_130543.png
+category: Development
+version: "1.0.0"
+port: 4000
+description: >-
+  This app redirects to an external Home Assistant server
+
+developer: Local
+website: http://umbrel.local
+submitter: Local
+submission: https://github.com/diegodrumond/umbrel-local-app-store
+repo: https://github.com/diegodrumond/umbrel-local-app-store
+support: https://github.com/diegodrumond/umbrel-local-app-store/issues
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
