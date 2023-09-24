@@ -1,20 +1,31 @@
 manifestVersion: 1
 id: local-hassio
 name: Home Assistant
-tagline: Redirects to external Home Assistant
+tagline: Home automation that puts local control & privacy first
 icon: https://yt3.googleusercontent.com/w0pMxvi-xTgbiaA-eS5uafZuUt8zVnPCGx0Bu9QPUn5qeFfrZN_K5Fs9kfQyy-c4CCC85fWb=s900-c-k-c0x00ffffff-no-rj
-category: Development
+category: automation
 version: "1.0.0"
-port: 4000
+port: 80
 description: >-
-  This app redirects to an external Home Assistant server
+  Open source home automation that puts local control and privacy
+  first, powered by a worldwide community of tinkerers and DIY enthusiasts. Home
+  Assistant integrates with over a thousand different devices and services. Once
+  you have integrated all your devices at home, you can unleash Home Assistant’s
+  advanced automation engine to make your home work for you. Examples: 
 
-developer: Local
-website: http://umbrel.local
-submitter: Local
+
+  - Turn on the light when the sun sets or when coming home 
+
+  - Alert you when you leave your garage door open 
+
+
+  All your smart home data stays local. Home Assistant communicates with your devices locally, and will fallback to pulling in data from the cloud if there is no other option. No data is stored in the cloud, and everything is processed locally.
+developer: Home Assistant
+website: https://home-assistant.io
+submitter: Unknown
 submission: https://github.com/diegodrumond/umbrel-local-app-store
-repo: https://github.com/diegodrumond/umbrel-local-app-store
-support: https://github.com/diegodrumond/umbrel-local-app-store/issues
+repo: https://github.com/home-assistant/core
+support: https://community.home-assistant.io
 gallery:
   - https://i.imgur.com/yyVG0Jb.jpeg
   - https://i.imgur.com/yyVG0Jb.jpeg
