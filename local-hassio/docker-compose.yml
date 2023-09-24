@@ -9,4 +9,4 @@ services:
   server:
     image: schmunk42/nginx-redirect:latest
     environment:
-      SERVER_REDIRECT: homeassistant.local
+      SERVER_REDIRECT: homeassistant.local:8123
